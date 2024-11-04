@@ -146,7 +146,7 @@ def impute_locf(data, column):
 # Streamlit dashboard
 def dashboard():
     st.title("Outlier Detection Dashboard")
-    set_background_image("/Users/niteshranjansingh/Downloads/Challenge_7/gradient-network-connection-background_23-2148879890.avif")  # Update with your image path
+    set_background_image("images/gradient-network-connection-background_23-2148879890.avif") # Update with your image path
     
     st.markdown("""
     ### Welcome to the Outlier Detection Dashboard!
