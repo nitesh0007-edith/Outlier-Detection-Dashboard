@@ -10,6 +10,7 @@ import base64
 from pandas_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
 
+
 # Set up background image
 def set_background_image(image_path):
     with open(image_path, "rb") as img_file:
